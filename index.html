@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilyés Borbála</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        
+            <form action="#">
+                <fieldset id="belepes">
+                    <legend>Regisztráció</legend>
+                    <label for="felnev">Felhasználónév</label>
+                    <input type="text" name="Felhasználónév" id="felnev" placeholder="csak ékezetes betűk"><br>
+                    <label for="jelszo">jelszó</label>
+                    <input type="text" name="jelszo" id="jelszo" placeholder="min. 3 karakter"><br>
+                    <label for="emailcim">e-mail cím</label>
+                    <input type="text" name="emailcim" id="emailcim" placeholder="vmi@vmi.hu"><br>
+                </fieldset>
+
+                <fieldset id="adatok">
+                    <legend>születés</legend>
+                    <label for="datum">születési dátum</label>
+                    <input type="date" name="datum" id="datum">
+                    <div id="szemelyesdiv">
+                        <div id="nyelv">
+                            <legend id="szemelyes">személyes</legend>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">angol</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">német<meta><meta></label><br>
+                        </div>
+                        <div id="szakma">
+                            <label for="cars">Választott szak:</label>
+                            <select name="szak" id="szak">
+                                <option value="SZFA1">SZFA1</option>
+                                <option value="SZFA2">SZFA2</option>
+                                <option value="SZFB">SZFB</option>
+                                <option value="IRUA1">IRUA1</option>
+                                <option value="IRUA2">IRUA2</option>
+
+                            </select>
+                        </div>
+
+                        <div id="nem">
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">ferfi</label>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">nő</label>
+                        </div>
+                    </div>
+                </fieldset>
+                    <br>
+                        <input type="submit" value="Regisztráció" id="kuldesgomb">
+            </form>
+        
+
+    </main>
+
+</body>
+</html>

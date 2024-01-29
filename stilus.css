@@ -1,0 +1,82 @@
+fieldset legend{
+    background-color: rgb(102, 233, 27);
+    color: white;
+    padding: 5px;
+}
+fieldset label{
+    padding: 5px;
+}
+fieldset input{
+    padding: 5px;
+}
+
+fieldset{
+    background-color: rgb(193, 224, 228);
+    border-color: rgb(106, 233, 233)
+}
+
+#kuldesgomb{
+    background-color: rgb(102, 233, 27);
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(46, 97, 5);
+}
+#szemelyes{
+    background-color: rgba(22, 129, 161, 0.411);
+    color: rgb(1, 6, 54);
+    padding: 5px;
+    
+}
+#szemelyesdiv{
+    border: 1px solid rgb(46, 97, 5);
+}
+
+body{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+#belepes input{
+    float: right;
+    margin: right;
+    
+}
+#belepes label{
+    padding: 5px;
+  }
+br {
+    clear: both;
+}
+#belepes{
+    grid-area: b;
+}
+
+#adatok{
+    grid-area: a;
+}
+
+#nyelv{
+    grid-area: ny;
+}
+
+#szakma{
+    grid-area: sz;
+}
+
+#nem{
+    grid-area: n;
+}
+
+main{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'b b'
+    'a  a'
+    'ny sz n';
+    gap: 100px;
+}
+main {
+    max-width: 900px;
+}
